@@ -17,4 +17,4 @@ install pathogen according to [the project on github](https://github.com/tpope/v
     :Helptags
 
 # Note
-This is fork from [msanders](git://github.com/kosl90/snipmate.vim.git)
+This is fork from [msanders](https://github.com/msanders/snipmate.vim)
