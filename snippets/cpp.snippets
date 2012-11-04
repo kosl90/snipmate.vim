@@ -29,6 +29,12 @@ snippet cl
 		${3:/* data */}
 	};
 snippet fori
-	for (int ${2:i} = 0; $2 < ${1:count}; $2${3:++}) {
-		${4:/* code */}
+	for (int ${2:i} = 0; $2 != ${1:count}; $2${3:++}) {
+		${4:// code}
 	}
+
+snippet iter
+	${1:v}.begin(), $1.end()${2}
+
+snippet riter
+	${1:v}.rbegin(), $1.rend()${2}
