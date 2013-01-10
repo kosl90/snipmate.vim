@@ -1,3 +1,12 @@
+snippet qtmain
+	int main(int argc, char* argv[])
+	{
+	    QApplication app(argc, argv);
+
+	    ${1}
+
+	    return app.exec();
+	}
 # Read File Into Vector
 snippet readfile
 	std::vector<char> v;
